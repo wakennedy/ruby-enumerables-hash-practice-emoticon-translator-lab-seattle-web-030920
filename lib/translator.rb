@@ -4,8 +4,8 @@ require 'pry'
 def load_library(fp)
   emoticons = YAML.load_file(fp)
   binding.pry 
-  i = 0 
   
+  i = 0 
   je = {}
   while i < emoticons.length do
     je[emoticons[i][1]] = emoticons[i][0]
