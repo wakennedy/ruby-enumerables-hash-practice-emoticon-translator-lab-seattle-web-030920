@@ -10,7 +10,7 @@ def load_library(fp)
     :get_emoticon=> {}
   }
   je = {}
-  emoticons.each do |emoticons|
+  emoticons.each do |key, value|
     binding.pry
 
     end
