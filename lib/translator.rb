@@ -18,7 +18,8 @@ end
 
 def get_japanese_emoticon(fp, emoticon)
     loaded = load_library(fp)
-    binding.pry 
+    solution =  loaded["get_meaning"][emoticon]
+    
 end
 
 def get_english_meaning
