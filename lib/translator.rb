@@ -22,7 +22,7 @@ def get_japanese_emoticon(fp, emoticon)
     if solution 
       solution
     else 
-      puts "not found"
+      puts "Sorry, that emoticon was not found"
     end
 end
 
