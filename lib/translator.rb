@@ -17,10 +17,10 @@ def load_library(fp)
       binding.pry
     end
 
-  while i < emoticons.length do
-    je[emoticons[i][1]] = emoticons[i][0]
-    i+=1 
-  end
+  # while i < emoticons.length do
+  #   je[emoticons[i][1]] = emoticons[i][0]
+  #   i+=1 
+  # end
   
   
   return hash
