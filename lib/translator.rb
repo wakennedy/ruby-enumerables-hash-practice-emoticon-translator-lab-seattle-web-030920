@@ -11,8 +11,10 @@ def load_library(fp)
   }
   je = {}
   emoticons.each do |key, value|
-    binding.pry
-      hash["get_emoticon"][value[0]] 
+    
+      hash["get_emoticon"][value[0]] = emoticons[key][1]
+      hash["get_meaning"][value[1]] = key
+      binding.pry
     end
 
   while i < emoticons.length do
