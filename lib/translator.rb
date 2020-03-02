@@ -18,7 +18,7 @@ end
 
 def get_japanese_emoticon(fp, emoticon)
     loaded = load_library(fp)
-    solution =  loaded["get_meaning"][emoticon]
+    solution =  loaded["get_emoticon"][emoticon]
     if solution 
       solution
     else 
