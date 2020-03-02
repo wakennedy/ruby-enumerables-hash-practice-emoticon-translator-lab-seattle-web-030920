@@ -21,7 +21,6 @@ def load_library(fp)
     }
   }
   return hash
-  binding.pry 
 end
 
 def get_japanese_emoticon
