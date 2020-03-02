@@ -4,7 +4,7 @@ require 'pry'
 def load_library(fp)
   emoticons = YAML.load_file(fp)
   
-  i = 0 
+  # i = 0 
   hash = {
     "get_meaning" => {},
     "get_emoticon"=> {}
@@ -14,7 +14,6 @@ def load_library(fp)
     
       hash["get_emoticon"][value[0]] = emoticons[key][1]
       hash["get_meaning"][value[1]] = key
-      binding.pry
     end
 
   # while i < emoticons.length do
@@ -22,7 +21,7 @@ def load_library(fp)
   #   i+=1 
   # end
   
-  
+  binding.pry
   return hash
 end
 
