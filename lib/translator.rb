@@ -21,7 +21,7 @@ def load_library(fp)
   #   i+=1 
   # end
   
-  binding.pry
+  #binding.pry
   return hash
 end
 
