@@ -10,6 +10,7 @@ def load_library(fp)
     je[emoticons[i][1]] = emoticons[i][0]
     i+=1 
   end
+  
   hash = {
     :get_meaning => je,
     :get_emoticon=> {
