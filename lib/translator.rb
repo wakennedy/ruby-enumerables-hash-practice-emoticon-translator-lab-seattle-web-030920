@@ -6,13 +6,13 @@ def load_library(fp)
   
   i = 0 
   hash = {
-    :get_meaning => {},
-    :get_emoticon=> {}
+    "get_meaning" => {},
+    "get_emoticon"=> {}
   }
   je = {}
   emoticons.each do |key, value|
     binding.pry
-      hash["get_emoticon"]
+      hash["get_emoticon"] 
     end
 
   while i < emoticons.length do
